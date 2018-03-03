@@ -1,0 +1,32 @@
+<html>
+	<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+		<title> Nick's first web page </title>
+	</head>
+	<body>
+      <form action="CustomerBackEnd.php" method="post" onsubmit="return Sub();">
+        <script type="text/javascript" src="FormChecker.js"></script>
+            Enter email:
+            <input type="text" id = "user" name = "name"><br>
+            Enter password:
+            <input type="Password" id = "TextID" name = "pass" ><br>
+          <table>
+          <td>
+          Teddy Bear: $10.00 each<br>
+          Quantity:<input type="number" id="TBQ" name="TBQ" value = "0"><td>
+          Stuffed Bunny: $7.00 each<br>
+          Quantity:<input type="number" id = "SBQ" name = "SBQ" value = "0"><td>
+          Stuffed Pig: $4.00 each<br>
+          Quantity:<input type="number" id = "SPQ" name = "SPQ" value = "0"><td>
+          </table>
+            <p >
+          Choose a shipping option
+            </p>
+            <input type="radio" name = "ship" value="Free 7 day" checked> Free 7 day<br>
+            <input type="radio" name = "ship" value = "$50.00 over night"> $50.00 over night<br>
+            <input type="radio" name = "ship" value = "$5.00 three day"> $5.00 three day<br>
+
+            <button type="submit" onClick= Sub() id = "Next">Submit</button><br>
+            <button type="button" onClick= Reset() id = "Next">Reset</button><br>
+	</body>
+</html>
