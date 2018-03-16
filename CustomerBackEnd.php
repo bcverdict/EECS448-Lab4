@@ -1,5 +1,5 @@
 <?php
-echo "<link rel='stylesheet' type='text/css' href='style.css' />";  
+echo "<link rel='stylesheet' type='text/css' href='style.css' />";
 $num0 = 0;
 $num1 = 0;
 $num2 = 0;
